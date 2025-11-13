@@ -3,7 +3,7 @@
     "description": "A lazy mpv setup for Windows.",
     "homepage": "https://github.com/hooke007/MPV_lazy",
     "license": "Unknown",
-    "url": "https://github.com/hooke007/MPV_lazy/releases/download/20251026/mpv-lazy-20251026.exe",
+    "url": "https://github.com/hooke007/mpv_PlayKit/releases/download/20251026/mpv-lazy-20251026.exe",
     "hash": "a5b510d1808c6dd8bc2f7d7b464a1ddfc86a5c016a168d2cb39510ffdc6ad4cd",
 
     "installer": {
@@ -22,6 +22,6 @@
     "checkver": "github",
     
     "autoupdate": {
-        "url": "https://github.com/hooke007/MPV_lazy/releases/download/$version/mpv-lazy-$version.exe"
+        "url": "https://github.com/hooke007/mpv_PlayKit/releases/download/$version/mpv-lazy-$version.exe"
     }
 }
