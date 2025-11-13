@@ -3,17 +3,16 @@
     "description": "A tool for Bilibili (Derived from PiliPlus repository).",
     "homepage": "https://github.com/bggRGjQaUbCoE/PiliPlus",
     "license": "GPL-3.0-1-ov-file",
-    "nested": true,
     "architecture": {
         "64bit": {
             "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre3/PiliPlus_windows_1.1.5+4337_x64.zip",
             "hash": "71be78d9253d10e48090b42436757e40eecb8ea767d90871288657ef308a7bf5"
         }
     },
-    "bin": "PiliPlus.exe",
+    "bin": "PiliPlus-Win\\PiliPlus.exe",
     "shortcuts": [
         [
-            "PiliPlus.exe",
+            "PiliPlus-Win\\PiliPlus.exe",
             "PiliPlus"
         ]
     ],
@@ -21,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/v$version/PiliPlus_win_x64.7z"
+                "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/v$version/PiliPlus_win_x64.zip"
             }
         }
     }
