@@ -7,7 +7,7 @@
     "hash": "a5b510d1808c6dd8bc2f7d7b464a1ddfc86a5c016a168d2cb39510ffdc6ad4cd",
 
     "installer": {
-        "script": "Invoke-Expression \"$fname -y -o `\"$dir`\"\""
+        "script": "Start-Process -FilePath \"$dir\\$fname\" -ArgumentList \"-y -o`\"$dir`\"\" -Wait"
     },
 
     "bin": "mpv-lazy\\mpv.exe",
